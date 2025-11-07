@@ -8,7 +8,7 @@ Package.describe({
 Package.onUse(function (api) {
   api.versionsFrom('1.7')
   api.use(
-    'coffeescript reactive-var jquery templating tracker'.split(' '),
+    'coffeescript@2.4.1 reactive-var jquery templating tracker'.split(' '),
     'client'
   )
   api.addFiles('tooltips.html tooltips.coffee'.split(' '), 'client')
